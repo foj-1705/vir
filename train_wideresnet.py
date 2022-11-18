@@ -54,7 +54,7 @@ parser.add_argument('--model', default='resnet',
 parser.add_argument('--save-freq', '-s', default=1, type=int, metavar='N',
                     help='save frequency')
 
-parser.add_argument('--method', default='vir-at', choices = ['vir-at', 'vir-trades'])
+parser.add_argument('--method', default='vir-trades', choices = ['vir-at', 'vir-trades'])
 
 #parser.add_argument('--mode', default='ce')
 
